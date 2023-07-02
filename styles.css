@@ -27,7 +27,11 @@ main {
   margin: 10px auto;
 }
 
+/* Comment Grid */
 article {
+  display: grid;
+  grid-template-rows: 2rem 2rem;
+  grid-template-columns: 101.8%;
   background-color: #ffffff;
   width: 100%;
   padding: 1rem;
@@ -36,6 +40,8 @@ article {
   box-shadow: 4px 4px 13px -15px;
   box-sizing: border-box;
 }
+
+
 
 /* Comment Authorized and @ link */
 .name {
