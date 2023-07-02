@@ -1,0 +1,69 @@
+/* BASE STYLE GUIDE */
+body {
+  background-color: #f4f6f9;
+  width: 100%;
+  max-width: 53.6%;
+  margin: 8% auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+}
+
+p {
+  color: #626262;
+}
+
+button {
+  background-color: #f4f6f9;
+  height: 4rem;
+  width: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 14rem 14rem 14rem 14rem;
+  grid-template-columns: 60rem;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+/* Comment Grid */
+article {
+  display: grid;
+  grid-template-rows: 2rem 2rem;
+  grid-template-columns: 101.8%;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 13px -15px;
+  box-sizing: border-box;
+}
+
+
+
+/* Comment Authorized and @ link */
+.name {
+  /* color: #4f4ba1; */
+  font-weight: 500;
+}
+.date-posted {
+  color: #626262;
+}
+
+.atLinkUser {
+  color: #4f4ba1;
+  font-weight: 500;
+}
+
+/* Comments Style Guide */
+/* Main Comment Section */
+
+.posted-comments-box {
+}
+.reply-comments-box .send-a-comment-box {
+}
+/* Send a comment */
+/* Replies */
+/* Buttons */
